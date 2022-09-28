@@ -1,13 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<style>* {  box-sizing: border-box;}.img-container {  float: left;  width: 33.33%;  padding: 5px;}.clearfix::after {  content: "";  clear: both;  display: table;}
+	</style>
 </head>
 <body>
-	<h1>Trần Hữu Tài</h1>
-	<h2>Facebook: fb.com/tai.tran.72</h2>
-	
+	<h2>Bố cục hình ảnh đặt cạnh nhau</h2>
+	<p>Float hình ảnh cạnh nhau:</p>
+	<div class="clearfi">  
+		<div class="img-container">  
+			<img src="flowers-1.jpg" alt="Beautiful flowers 1" style="width:100%">  
+		</div>  
+		<div class="img-container">  
+			<img src="flowers-2.jpg" alt="Beautiful flowers 2" style="width:100%">  
+		</div>  
+		<div class="img-container"> 
+		 <img src="flowers-3.jpg" alt="Beautiful flowers 3" style="width:100%">  
+		</div>
+	</div>
+	<p>Sử dụng</p>
 </body>
 </html>
